@@ -1,6 +1,6 @@
 name: gpt_draggable_fab
 description: A Simple Flutter Draggable Fab generated with ChatGPT
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/voyages-sncf-technologies/draggable_fab
 
 environment:
