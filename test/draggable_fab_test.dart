@@ -1,5 +1,5 @@
 /* Generated with ChatGPT : https://chat.openai.com/chat/6258744a-f9ff-4730-bf55-49251ae952d1 */
-import 'package:draggable_fab/draggable_fab.dart';
+import 'package:gpt_draggable_fab/gpt_draggable_fab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
