@@ -14,7 +14,7 @@ Drag the fab wherever you want.
 Add draggable fab to your pubspec
 
 ```yaml
-draggable_fab: 0.0.1
+draggable_fab: 0.0.2
 ```
 
 ## Usage

@@ -29,8 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  draggable_fab:
-    path: ../../draggable_fab
+  gpt_draggable_fab:
+    path: ../../gpt_draggable_fab
 
 
   # The following adds the Cupertino Icons font to your application.
