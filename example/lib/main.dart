@@ -1,27 +1,35 @@
-Draggable Fab generated with Chat GPT
+import 'package:draggable_fab/draggable_fab.dart';
+import 'package:flutter/material.dart';
 
-[![pub package](https://img.shields.io/pub/v/draggable_fab.svg)](https://pub.dev/packages/draggable_fab)
-[![Test](https://github.com/voyages-sncf-technologies/draggable_fab/actions/workflows/test.yaml/badge.svg)](https://github.com/voyages-sncf-technologies/draggable_fab/actions/workflows/test.yaml)
-[![codecov](https://codecov.io/gh/voyages-sncf-technologies/draggable_fab/branch/main/graph/badge.svg)](https://codecov.io/gh/voyages-sncf-technologies/draggable_fab)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+void main() {
+  runApp(const MyApp());
+}
 
-## Features
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
-Drag the fab wherever you want.
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        // This is the theme of your application.
+        //
+        // Try running your application with "flutter run". You'll see the
+        // application has a blue toolbar. Then, without quitting the app, try
+        // changing the primarySwatch below to Colors.green and then invoke
+        // "hot reload" (press "r" in the console where you ran "flutter run",
+        // or simply save your changes to "hot reload" in a Flutter IDE).
+        // Notice that the counter didn't reset back to zero; the application
+        // is not restarted.
+        primarySwatch: Colors.blue,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
 
-## Getting started
-
-Add draggable fab to your pubspec
-
-```yaml
-draggable_fab: 0.0.1
-```
-
-## Usage
-
-use like normal fab :
-
-```dart
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
@@ -68,4 +76,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-```
