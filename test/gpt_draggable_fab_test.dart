@@ -4,8 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('Floating action button is draggable', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: DraggableFab(iconData: Icons.access_alarm,)));
+  testWidgets('Floating action button is draggable',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const MaterialApp(
+        home: DraggableFab(
+      iconData: Icons.access_alarm,
+    )));
     final fab = find.byType(FloatingActionButton);
     expect(fab, findsOneWidget);
 

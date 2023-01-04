@@ -7,7 +7,10 @@ class DraggableFab extends StatefulWidget {
   final IconData iconData;
   final VoidCallback? onPressed;
   final String? tooltip;
-  const DraggableFab({Key? key, required this.iconData, this.onPressed, this.tooltip}) : super(key: key);
+
+  const DraggableFab(
+      {Key? key, required this.iconData, this.onPressed, this.tooltip})
+      : super(key: key);
 
   @override
   State<DraggableFab> createState() => _DraggableFabState();
@@ -20,7 +23,8 @@ class _DraggableFabState extends State<DraggableFab> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-      position = Offset(MediaQuery.of(context).size.width -80, MediaQuery.of(context).size.height -80);
+      position = Offset(MediaQuery.of(context).size.width - 80,
+          MediaQuery.of(context).size.height - 80);
     });
   }
 
@@ -37,7 +41,7 @@ class _DraggableFabState extends State<DraggableFab> {
           left: position.dx,
           top: position.dy,
           child: Draggable(
-            feedback:fab,
+            feedback: fab,
             childWhenDragging: const SizedBox.shrink(),
             onDraggableCanceled: (velocity, offset) {
               setState(() {
@@ -51,8 +55,3 @@ class _DraggableFabState extends State<DraggableFab> {
     );
   }
 }
-
-
-
-
-
