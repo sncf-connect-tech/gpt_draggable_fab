@@ -1,6 +1,6 @@
 Draggable Fab generated with Chat GPT
 
-[![pub package](https://img.shields.io/pub/v/draggable_fab.svg)](https://pub.dev/packages/draggable_fab)
+[![pub package](https://img.shields.io/pub/v/gpt_draggable_fab.svg)](https://pub.dev/packages/gpt_draggable_fab)
 [![Test](https://github.com/voyages-sncf-technologies/draggable_fab/actions/workflows/test.yaml/badge.svg)](https://github.com/voyages-sncf-technologies/draggable_fab/actions/workflows/test.yaml)
 [![codecov](https://codecov.io/gh/voyages-sncf-technologies/draggable_fab/branch/main/graph/badge.svg)](https://codecov.io/gh/voyages-sncf-technologies/draggable_fab)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
